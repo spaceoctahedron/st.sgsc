@@ -1,0 +1,8 @@
+pandas
+numpy
+streamlit
+streamlit-carousel
+yfinance
+Pillow
+openpyxl
+xlrd
