@@ -1,4 +1,4 @@
-# 2_Stock.py
+# 2_Stocks.py
 import streamlit as st
 import os
 from data.inventory import df_inventory
@@ -21,7 +21,8 @@ st.logo("im/cereal_logo.png")
 image_base_path = os.path.abspath("./im/001/")
 
 # Stock Status Overview
-st.header("Aperçu de l'état des stocks")
+
+st.title("🌿 Aperçu de l'état des stocks")
 status_df = df_inventory[[
     'ID', 'Nom', 'Stock actuel', 'Stock maximum', 'Niveau critique', 'Quantité à commander']]
 st.dataframe(status_df, column_config={

@@ -6,3 +6,4 @@ yfinance
 Pillow
 openpyxl
 xlrd
+sqlalchemy

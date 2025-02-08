@@ -46,7 +46,7 @@ def prepare_map_data(df):
     return map_data
 
 # Streamlit page
-st.title("Fournisseurs de Céréales en Afrique de l'Ouest")
+st.title("🌏 Fournisseurs de Céréales en Afrique de l'Ouest")
 
 # Load data
 df_suppliers = load_suppliers_data()
