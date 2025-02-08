@@ -7,3 +7,4 @@ Pillow
 openpyxl
 xlrd
 sqlalchemy
+psycopg2-binary
