@@ -32,7 +32,7 @@ for _, row in df.iterrows():
         dict(
             title=row['Nom'],
             text=row['Description'],
-            img=row['Image'],
+            img=row['Carousel'],
             link="#",  # Replace with a relevant link if needed
         )
     )
